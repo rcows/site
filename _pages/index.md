@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /
 ---
 
 Sidey is a simple and minimalistic jekyll blogging theme.
