@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /
 ---
+<img src="ruby.jpg" width="250px">
 <br>
 <p>I write stories and play with audio.</p>
 <p>I live in western Massachusetts and work as a UX writer.</p>
