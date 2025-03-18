@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Ryan Shea
 permalink: /
 ---
 <img src="ruby.jpg" width="250px">
