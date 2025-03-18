@@ -4,7 +4,6 @@ title: About
 permalink: /
 ---
 <br>
-<h1>Ryan Shea</h1>
 <p>I write stories and play with audio.</p>
 <p>I live in western Massachusetts and work as a UX writer.</p>
 <p>I earned an MFA from the University of Massachusetts Amherst in 2016.</p>
