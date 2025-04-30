@@ -5,7 +5,8 @@ description: A monthly series covering my favorite web reads.
 comments: true
 tags: [monthly_fiction]
 ---
-
+<br>
+<br>
 <h3><a href="https://wigleaf.com/202504flood.htm">Before the Flood</a> by Sam Schieren</h3>
 Bumming around with a dog and trying to find work and love and anticipating doom as fear and desire. It’s a warm and dusty little story that feels true in the right ways. I’m glad I finally figured out that you can find permalinks to Wigleaf stories. I was confused for a long time. This one does the short sentence work well. It carries you along. “The faint milky band of our galaxy looms. I find its clear definition disturbing, as if it were a frightening place I might have to visit soon and unexpectedly.” I feel that. I miss smoking and it’s okay for smoking to be in stories. I got 3 teeth removed this week and can’t inhale anything like that because I don’t want dry sockets. (I got them last time I had 2 teeth out by smoking.) What’s a secret? What’s private? Why? I think probably everything and then nothing.
 
