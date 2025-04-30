@@ -3,7 +3,7 @@ layout: post
 title: Favorite Web Stories: April
 description: A monthly series covering my favorite web reads.
 comments: true
-tags: [month_web_fiction]
+tags: [monthly_fiction]
 ---
 
 <h3><a href="https://wigleaf.com/202504flood.htm">Before the Flood</a> by Sam Schieren</h3>
