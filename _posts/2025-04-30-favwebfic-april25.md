@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Favorite Web Stories: April"
+title: "Favorite Web Stories: April 2025"
 description: A monthly series covering my favorite web reads.
 comments: true
 tags: [monthly_fiction]
