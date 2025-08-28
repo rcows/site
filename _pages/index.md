@@ -34,4 +34,4 @@ permalink: /
 <br>
 <br>
 <h1 style="color:#1AA7ec;">Contact</h1>
-<p><a href="mailto: arr.shea@gmail.com" target="_blank">Email me</a> to get in touch. I also post on <a href="https://blips.substack.com/">Substack</a>, <a href="https://bsky.app/profile/rshea.bsky.social">Bluesky</a>, and <a href="">Instagram</a>.</p>
+<p><a href="mailto: arr.shea@gmail.com" target="_blank">Email me</a> to get in touch. I also post once in a while on <a href="https://blips.substack.com/">Substack</a>, <a href="https://www.threads.com/@ryanjshea">Threads</a>, <a href="https://bsky.app/profile/rshea.bsky.social">Bluesky</a>, and <a href="">Instagram</a>.</p>
