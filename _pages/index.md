@@ -8,7 +8,7 @@ permalink: /
 <p>I write stories and play with audio.</p>
 <p>I live in western Massachusetts and work as a UX writer.</p>
 <p>I earned an MFA from the University of Massachusetts Amherst in 2016.</p>
-<p>I co-edit <a href="https://www.coverlitmag.com/" target="_blank">Cover</a>.</p>
+<p>I co-edit <a href="https://www.cover.pub/" target="_blank">Cover</a>.</p>
 <p>I'm not the hockey player, crypto / AI / startup guy, nature writing guy, or <a href="https://www.teacherspayteachers.com/store/ryan-shea">this guy</a> who have the same name.</p>
 <br>
 <br>
