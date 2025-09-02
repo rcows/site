@@ -8,7 +8,7 @@ tags: [monthly_fiction]
 <br>
 <br>
 <h3><a href="https://thediagram.com/25_2/landman.html">Appeal by Seth Landman</a></h3>
-Distance and apprehension and the kind of enjoying the world that leaves grass rash. Or blisters. Not a lot to say about a good poem that the poem doesn’t say.
+It's a poem, but I'm putting it here. Distance and apprehension and the kind of enjoying the world that leaves grass rash. Or blisters. Not a lot to say about a good poem that the poem doesn’t say.
 
 <h3><a href="https://www.hobartpulp.com/web_features/breaking-character">Breaking Character by Marie López</a></h3>
 Right amount of propulsive curiosity kept me going. Good idea and decent exploration for the length. I’d read a longer and slower expansion. 
