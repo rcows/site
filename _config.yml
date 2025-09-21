@@ -1,17 +1,17 @@
 site: "Ryan Shea"
 url: https://ryanshea.info
 title: "Ryan Shea"
-description: ""
+description: "Writer. Stories, poems, and audio work. Co-editor of Cover."
 twitter:
-  username: #yourusername
-  card: summary
-  creator: #yourusername
+  username: ryanjshea
+  card: summary_large_image
+  creator: ryanjshea
 author:
-  twitter: #yourusername
-  name: #yourusername
-  avatar:
-  email: #youremail
-  url: #yoururl
+  twitter: ryanjshea
+  name: Ryan Shea
+  avatar: /favicon.png
+  email: arr.shea@gmail.com
+  url: https://ryanshea.info
 permalink: pretty
 
 baseurl: ""
@@ -29,10 +29,34 @@ sass:
   sass_dir:          _sass
   style:            :compressed
 
+# Performance optimizations
+incremental: true
+future: true
+unpublished: false
+
+# Feed settings
+feed:
+  excerpts: true
+  path: atom.xml
+
+# SEO settings
+seo:
+  type: Person
+  name: Ryan Shea
+  same_as:
+    - https://www.threads.com/@ryanjshea
+    - https://bsky.app/profile/rshea.bsky.social
+
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-sitemap  
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings  
 
 collections:
   pages:

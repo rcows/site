@@ -1,3 +1,23 @@
+:root {
+  --color-primary: #8F00FF;
+  --color-secondary: #D54B00;
+  --color-accent: #74B72E;
+  --color-link: #1AA7ec;
+  --color-text: rgb(22, 23, 26);
+  --color-bg: #ffffff;
+  --color-border: #edf2f7;
+  --color-code-bg: rgb(236, 237, 238);
+  --font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --max-width: 60rem;
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --border-radius: 4px;
+  --transition: all 0.2s ease;
+}
+
 *,:after,:before {
 	box-sizing:border-box;
 	background-color:inherit;
@@ -7,35 +27,83 @@
 }
 
 body {
-	font-family: 'Inter', system-ui, sans-serif;
+	font-family: var(--font-family);
 	-webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-	line-height:1.5;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	line-height: 1.6;
 	font-size: 1rem;
-	color: rgb(22, 23, 26);
+	color: var(--color-text);
+	background-color: var(--color-bg);
+}
+
+.skip-link {
+	position: absolute;
+	top: -40px;
+	left: 6px;
+	background: var(--color-primary);
+	color: white;
+	padding: 8px;
+	text-decoration: none;
+	z-index: 1000;
+	border-radius: var(--border-radius);
+	transition: var(--transition);
+}
+
+.skip-link:focus {
+	top: 6px;
+}
+
+/* Screen reader only content */
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
 }
 
 nav ul {
-    border-right: 1px solid #edf2f7;
+    border-right: 1px solid var(--color-border);
 }
 
 a {
-    color: #000;
+    color: var(--color-text);
     text-decoration-skip-ink: auto;
     text-decoration: underline;
+    transition: var(--transition);
+}
+
+a:hover, a:focus {
+    color: var(--color-primary);
+    text-decoration-thickness: 2px;
+}
+
+a:focus {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+    border-radius: var(--border-radius);
 }
 
 pre {
-	margin: .5rem 0;
-	padding: .5rem;
+	margin: var(--spacing-sm) 0;
+	padding: var(--spacing-md);
+	border-radius: var(--border-radius);
+	overflow-x: auto;
+	background: var(--color-code-bg);
 }
 
 .post p {
-	margin: .5rem 0;
+	margin: var(--spacing-sm) 0;
 }
 
 .post h1, .post h2, .post h3, .post h4 {
-	margin: 1rem 0;
+	margin: var(--spacing-md) 0;
+	scroll-margin-top: 2rem;
 }
 
 .post h2:first-child, .project h2:first-child, .photo h2:first-child {
@@ -43,30 +111,45 @@ pre {
 }
 
 .meta {
-	margin: 2rem 0;
+	margin: var(--spacing-xl) 0;
 }
 
-.active {font-weight: bold}
+.active {
+	font-weight: 600;
+	color: var(--color-primary);
+}
 
-code,pre {
-	background: rgb(236, 237, 238);
+code, pre {
+	background: var(--color-code-bg);
+	font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+	font-size: 0.9em;
 }
 
 code {
-	padding: .1rem;
+	padding: 0.125rem 0.25rem;
+	border-radius: var(--border-radius);
 }
 
 pre code {
 	border: none;
-}
-
-pre {
-	padding: 1rem;
-	overflow-x: auto;
+	padding: 0;
+	background: transparent;
 }
 
 img {
-	max-width:100%;
+	max-width: 100%;
+	height: auto;
+	border-radius: var(--border-radius);
+	transition: var(--transition);
+}
+
+img[loading="lazy"] {
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+img[loading="lazy"].loaded {
+	opacity: 1;
 }
 
 hr {
@@ -160,11 +243,20 @@ strong, b {
 }
 
 main {
-	display:flex;
-	flex-wrap:wrap;
-	max-width:60rem;
-	margin:2rem auto;
-	padding:1rem;
+	display: grid;
+	grid-template-columns: minmax(200px, 1fr) 3fr;
+	gap: var(--spacing-xl);
+	max-width: var(--max-width);
+	margin: var(--spacing-xl) auto;
+	padding: var(--spacing-md);
+	min-height: calc(100vh - 4rem);
+}
+
+@media (max-width: 45rem) {
+	main {
+		grid-template-columns: 1fr;
+		gap: var(--spacing-md);
+	}
 }
 
 
@@ -191,12 +283,9 @@ nav ul {
 }
 
 section {
-	flex-basis:0;
-	flex-grow:999;
-	min-width:70%;
-	display:flex;
-	flex-direction:column;
-	
+	display: flex;
+	flex-direction: column;
+	min-width: 0; /* Prevents grid blowout */
 }
 
 figcaption {

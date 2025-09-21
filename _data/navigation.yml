@@ -3,5 +3,7 @@ links:
   url: /
 - title: Blog
   url: /blog/
-- title: Rss
+- title: Privacy
+  url: /privacy/
+- title: RSS
   url: /atom.xml

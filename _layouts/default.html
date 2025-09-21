@@ -3,16 +3,13 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
   {% include head.html %}  
   <body>
-    <main>
-	    
-	    {% include navigation.html %}
-	    
-        {{ content }}
-        	    
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <main id="main-content">
+      {% include navigation.html %}
+      {{ content }}
     </main>
-            
   </body>
 </html>
