@@ -292,6 +292,16 @@ figcaption {
     font-size: smaller;
 }
 
+.post-content ul,
+.post-content ol {
+  margin-left: 1.25rem;
+  padding-left: 0;
+}
+
+.post-content li {
+  padding-left: 0.25rem;
+}
+
 @media print
 {    
     .no-print, .no-print *
