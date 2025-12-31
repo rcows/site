@@ -36,8 +36,6 @@ permalink: /
 
   <section>
     <h2 style="color:var(--color-accent);">Audio</h2>
-    <p>Masters songs for <a href="https://open.spotify.com/artist/4nCmtQFMPxlLb3odsrUTD9?si=uvD-NbEgTTGluFBqLaQsOw" target="_blank" rel="noopener noreferrer">Lemmings</a></p>
-    <p>Made sounds with <a href="https://open.spotify.com/track/4jeaUOEuH6AJkaO1e8B7qy?si=003610e5dfd64093" target="_blank" rel="noopener noreferrer">What About Saturn</a></p>
     <p>Edited and mastered audio for <a href="http://tkpod.com/" target="_blank" rel="noopener noreferrer">TK with James Scott</a></p>
   </section>
 
