@@ -41,6 +41,6 @@ permalink: /
 
   <section>
     <h2 style="color:var(--color-link);">Contact</h2>
-    <p><a href="mailto:arr.shea@gmail.com">Email me</a> to get in touch. I also post once in a while on <a href="https://blips.substack.com/" target="_blank" rel="noopener noreferrer">Substack</a>, <a href="https://www.threads.com/@ryanjshea" target="_blank" rel="noopener noreferrer">Threads</a>, <a href="https://bsky.app/profile/rshea.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a>, and <a href="https://www.instagram.com/ryanjshea/" target="_blank" rel="noopener noreferrer">Instagram</a>.</p>
+    <p><a href="mailto:arr.shea@gmail.com">Email me</a> to get in touch. I also post once in a while on <a href="https://ryanshea2.substack.com/profile/posts" target="_blank" rel="noopener noreferrer">Substack</a>, <a href="https://bsky.app/profile/coverlit.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a>, and <a href="https://www.instagram.com/ryanjshea/" target="_blank" rel="noopener noreferrer">Instagram</a>.</p>
   </section>
 </article>
